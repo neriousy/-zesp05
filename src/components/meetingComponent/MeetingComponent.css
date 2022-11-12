@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.meeting-component{
+    padding: 15px 30px;
+    position: relative;
+    width:50%;
+    color:#fff;
+}
+
+.meeting-component:nth-child(odd){
+    left: 0;
+}
+
+.meeting-component:nth-child(even){
+    left:50%;
+}
+
+.meeting-component::after{
+    content: "";
+    position: absolute;
+    width:16px;
+    height: 16px;
+    top: calc(50% - 8px);
+    right: -8px;
+    background-color: #fff;
+    border: 2px solid rgb(0, 225, 255);
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.meeting-component:nth-child(even)::after{
+    left: -8px;
+}
+
+.meeting-component::before{
+    content: "";
+    position: absolute;
+    width:50px;
+    height: 2px;
+    top: calc(50% - 1px);
+    right:8px;
+    background-color: rgb(0, 225, 255);
+    z-index:1;
+}
+
+.meeting-component:nth-child(even):before{
+    left: 8px;
+}
+
+.meeting-component .date{
+    position: absolute;
+    display: inline-block;
+    top: calc(50% - 8px);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.meeting-component:nth-child(odd) .date{
+    right:-150px;
+}
+
+.meeting-component:nth-child(even) .date{
+    left:-150px;
+}
+
+.meeting-component .icon{
+    position: absolute;
+    display: inline-block;
+    padding: 9px 9px;
+    top: calc(50% - 25px);
+    background-color: #282E3A;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 33px;
+    color: #fff;
+    z-index: 1;
+}
+
+.meeting-component:nth-child(odd) .icon{
+    right:56px;
+}
+
+.meeting-component:nth-child(even) .icon{
+    left:56px;
+}
+
+.meeting-component .content{
+    padding: 30px 90px 30px 30px;
+    background-color: #282E3A;
+    position:relative;
+    border-radius: 0 500px 500px 0;
+}
+
+.meeting-component:nth-child(even) .content{
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
+}
+
+.meeting-component .content h2{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    text-transform:uppercase;
+}
+
+.meeting-component .content p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}

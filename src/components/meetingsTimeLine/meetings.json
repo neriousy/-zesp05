@@ -1,0 +1,19 @@
+{
+    "meetings":[
+        {
+            "id": 0,
+            "date": "8 Listopada 2022",
+            "desc": "Nawiązanie kontaktu i pierwsze spotkanie z opiekunem"
+        },
+        {
+            "id": 1,
+            "date": "22 Listopada 2022",
+            "desc": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet "
+        },
+        {
+            "id": 2,
+            "date": "23 Listopada 2022",
+            "desc": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet "
+        }
+    ]
+}

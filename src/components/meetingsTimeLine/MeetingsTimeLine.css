@@ -1,0 +1,31 @@
+.time-line{
+    position: relative;
+    width: 100%;
+    max-width:1140px;
+    margin: 0 auto 10px auto;
+    padding: 15px 0;
+    
+}
+
+.time-line::after{
+    content: "";
+    position: absolute;
+    width:2px;
+    background-color: #282E3A;
+    top: 0;
+    bottom: 0;
+    left:50%;
+    margin-left: -1px;
+}
+
+.time-line-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time-line-container h2{
+    margin-top: 45px;
+    text-transform: uppercase;
+}

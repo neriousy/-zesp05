@@ -1,0 +1,24 @@
+.member-profile-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 29%;
+    padding: 10px;
+    margin:10px;
+    border:2px solid #e9e9e9;
+}
+
+.member-profile-container img{
+    height:auto;
+    width:50%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.member-profile-container .name{
+    font-weight: 600;
+    font-size:1.2em;
+    margin: 10px 0 5px 0;
+}
+
