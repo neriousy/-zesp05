@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## To make this work you have to install FontAwesome packages. To do it run:
 
-### `npm i --save @fortawesome/fontawesome-svg-core
-npm install --save @fortawesome/free-solid-svg-icons
-npm install --save @fortawesome/react-fontawesome `
+### `npm i --save @fortawesome/fontawesome-svg-core`
+### `npm install --save @fortawesome/free-solid-svg-icons`
+### `npm install --save @fortawesome/react-fontawesome`
  
 In the project directory, you can run:
 
