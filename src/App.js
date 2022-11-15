@@ -1,15 +1,17 @@
 import React from 'react';
-import { Navbar } from './components';
-import { MembersContainer } from './components';
-import { MeetingsTimeLine } from './components';
+import Navbar from './components/navbar/Navbar';
+import MembersContainer from './components/membersContainer/MembersContainer';
+import MeetingsTimeLine  from './components/meetingsTimeLine/MeetingsTimeLine';
 
 
 function App() {
   return (
     <React.Fragment>
       <Navbar/>
-      <MembersContainer/>
-      <MeetingsTimeLine/>
+      <main>
+        <MembersContainer/>
+        <MeetingsTimeLine/>
+      </main>
     </React.Fragment>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import members from './members.json';
-import MemberProfile from "../memberProfile";
+import MemberProfile from "../memberProfile/MemberProfile";
 import './MembersContainer.css'
 
 function MembersContainer(){

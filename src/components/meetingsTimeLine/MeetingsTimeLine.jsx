@@ -1,6 +1,6 @@
 import React from "react";
 import './MeetingsTimeLine.css';
-import MeetingComponent from '../meetingComponent/';
+import  MeetingComponent from '../meetingComponent/MeetingComponent';
 import meetings from './meetings.json';
 
 
