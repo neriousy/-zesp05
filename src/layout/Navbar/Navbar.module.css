@@ -17,7 +17,7 @@ nav{
     
 }
 
-.nav-list{
+.navList{
     height: 100%;
     width: auto;
     display: flex;
@@ -28,7 +28,7 @@ nav{
     list-style-type: none;
 }
 
-.nav-list li{
+.navList li{
     height: 100%;
     width: auto;
     display: flex;
@@ -37,7 +37,7 @@ nav{
     font-size:1.2em;
     margin: 0 10px 0 10px;
 }
-.nav-list li:first-child{
+.navList li:first-child{
     font-size: 2.5em;
     position:absolute;
     left:40px;
@@ -45,7 +45,7 @@ nav{
 
 
 
-.nav-list li a{
+.navList li a{
     position: relative;
     display: inline-block;
     width: 100%;
@@ -56,7 +56,7 @@ nav{
     border-radius: 10px;
 }
 
-.nav-list li a::after{
+.navList li a::after{
     content: "";
     position: absolute;
     height: 1px;
@@ -68,33 +68,33 @@ nav{
     transition: 0.15s;
 }
 
-.nav-list li:first-child a::after{
+.navList li:first-child a::after{
     font-size: 2.5em;
     position:absolute;
     left:40px;
     display: none;
 }
 
-.nav-list li a:hover{
+.navList li a:hover{
     color:#fff;
 }
 
-.nav-list li a:hover::after{
+.navList li a:hover::after{
     transform: scaleX(1);
     background: #fff;
 }
 
-.nav-list li a:active{
+.navList li a:active{
     color:#e9ecf0c4;
 }
 
-.nav-list li:first-child a{
+.navList li:first-child a{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.flex-column{
+.flexColumn{
     display: flex;
     flex-direction: column;
     font-size: 0.5em;

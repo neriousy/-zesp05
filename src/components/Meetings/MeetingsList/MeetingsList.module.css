@@ -1,4 +1,4 @@
-.time-line{
+.timeLine{
     position: relative;
     width: 100%;
     max-width:1140px;
@@ -7,7 +7,7 @@
     
 }
 
-.time-line::after{
+.timeLine::after{
     content: "";
     position: absolute;
     width:2px;
@@ -18,14 +18,14 @@
     margin-left: -1px;
 }
 
-.time-line-container{
+.timeLineContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.time-line-container h2{
+.timeLineContainer h2{
     margin-top: 45px;
     text-transform: uppercase;
 }
