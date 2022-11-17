@@ -1,4 +1,4 @@
-.members-container{
+.memberContainer{
     position: relative;
     width:60%;
     height:auto;
@@ -9,7 +9,7 @@
     margin:25px auto 0 auto;
 }
 
-.members-container::after{
+.memberContainer::after{
     content: "";
     position: absolute;
     width:90vw;
@@ -18,7 +18,7 @@
     background-color: #282E3A;   
 }
 
-.members-container h2{
+.memberContainer h2{
     width: 100%;
     text-align: center;
     text-transform: uppercase;

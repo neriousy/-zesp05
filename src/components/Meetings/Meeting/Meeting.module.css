@@ -1,25 +1,19 @@
-*,
-*::before,
-*::after{
-    box-sizing: border-box;
-}
-
-.meeting-component{
+.meetingComponent{
     padding: 15px 30px;
     position: relative;
     width:50%;
     color:#fff;
 }
 
-.meeting-component:nth-child(odd){
+.meetingComponent:nth-child(odd){
     left: 0;
 }
 
-.meeting-component:nth-child(even){
+.meetingComponent:nth-child(even){
     left:50%;
 }
 
-.meeting-component::after{
+.meetingComponent::after{
     content: "";
     position: absolute;
     width:16px;
@@ -32,11 +26,11 @@
     z-index: 1;
 }
 
-.meeting-component:nth-child(even)::after{
+.meetingComponent:nth-child(even)::after{
     left: -8px;
 }
 
-.meeting-component::before{
+.meetingComponent::before{
     content: "";
     position: absolute;
     width:50px;
@@ -47,11 +41,11 @@
     z-index:1;
 }
 
-.meeting-component:nth-child(even):before{
+.meetingComponent:nth-child(even):before{
     left: 8px;
 }
 
-.meeting-component .date{
+.date{
     position: absolute;
     display: inline-block;
     top: calc(50% - 8px);
@@ -63,15 +57,15 @@
     z-index: 1;
 }
 
-.meeting-component:nth-child(odd) .date{
+.meetingComponent:nth-child(odd) .date{
     right:-150px;
 }
 
-.meeting-component:nth-child(even) .date{
+.meetingComponent:nth-child(even) .date{
     left:-150px;
 }
 
-.meeting-component .icon{
+.meetingComponent .icon{
     position: absolute;
     display: inline-block;
     padding: 9px 9px;
@@ -85,27 +79,27 @@
     z-index: 1;
 }
 
-.meeting-component:nth-child(odd) .icon{
+.meetingComponent:nth-child(odd) .icon{
     right:56px;
 }
 
-.meeting-component:nth-child(even) .icon{
+.meetingComponent:nth-child(even) .icon{
     left:56px;
 }
 
-.meeting-component .content{
+.meetingComponent .content{
     padding: 30px 90px 30px 30px;
     background-color: #282E3A;
     position:relative;
     border-radius: 0 500px 500px 0;
 }
 
-.meeting-component:nth-child(even) .content{
+.meetingComponent:nth-child(even) .content{
     padding: 30px 30px 30px 90px;
     border-radius: 500px 0 0 500px;
 }
 
-.meeting-component .content h2{
+.meetingComponent .content h2{
     margin: 0 0 10px 0;
     font-size: 18px;
     font-weight: normal;
@@ -113,7 +107,7 @@
     text-transform:uppercase;
 }
 
-.meeting-component .content p{
+.meetingComponent .content p{
     margin: 0;
     font-size: 16px;
     line-height: 22px;
