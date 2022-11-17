@@ -1,5 +1,5 @@
 import React from 'react';
-import * as styles from './Member.module.css';
+import styles from './Member.module.scss';
 import tempProfile from '../../../assets/temp-profile.png';
 
 

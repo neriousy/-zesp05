@@ -7,18 +7,18 @@
     align-items: center;
     flex-wrap: wrap;
     margin:25px auto 0 auto;
+
+    &::after{
+        content: "";
+        position: absolute;
+        width:90vw;
+        height:2px;
+        bottom:-10px;
+        background-color: #282E3A; 
+    }
 }
 
-.memberContainer::after{
-    content: "";
-    position: absolute;
-    width:90vw;
-    height:2px;
-    bottom:-10px;
-    background-color: #282E3A;   
-}
-
-.memberContainer h2{
+h2{
     width: 100%;
     text-align: center;
     text-transform: uppercase;

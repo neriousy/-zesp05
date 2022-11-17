@@ -1,34 +1,32 @@
-{
-    "members":[
-        {
-            "id": 0,
-            "name": "Przemysław Gawron",
-            "role": "Opiekun"
-        },
-        {
-            "id": 1,
-            "name": "Filip Hejmowski",
-            "role": "Czlonek zespolu"
-        },
-        {
-            "id": 2,
-            "name": "Bartosz Konkel",
-            "role": "Czlonek zespolu"
-        },
-        {
-            "id": 3,
-            "name": "Kazimierz Daszkiewicz",
-            "role": "Czlonek zespolu"
-        },
-        {
-            "id": 4,
-            "name": "Kacper Filipiuk",
-            "role": "Czlonek zespolu"
-        },
-        {
-            "id": 5,
-            "name": "Aneta Pietrzak",
-            "role": "Czlonek zespolu"
-        }
-    ]
-}
+[
+    {
+        "id": 0,
+        "name": "Przemysław Gawron",
+        "role": "Opiekun"
+    },
+    {
+        "id": 1,
+        "name": "Filip Hejmowski",
+        "role": "Czlonek zespolu"
+    },
+    {
+        "id": 2,
+        "name": "Bartosz Konkel",
+        "role": "Czlonek zespolu"
+    },
+    {
+        "id": 3,
+        "name": "Kazimierz Daszkiewicz",
+        "role": "Czlonek zespolu"
+    },
+    {
+        "id": 4,
+        "name": "Kacper Filipiuk",
+        "role": "Czlonek zespolu"
+    },
+    {
+        "id": 5,
+        "name": "Aneta Pietrzak",
+        "role": "Czlonek zespolu"
+    }
+]
