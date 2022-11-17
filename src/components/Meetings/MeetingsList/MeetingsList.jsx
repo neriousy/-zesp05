@@ -1,7 +1,8 @@
 import React from 'react';
-import * as styles from './MeetingsList.module.css';
+import styles from './MeetingsList.module.scss';
 import Meeting from '../Meeting/Meeting';
-import { meetings } from './meetings.json';
+import meetings from './meetings.json';
+
 
 
 function MeetingsList(){
@@ -14,6 +15,7 @@ function MeetingsList(){
 				{meetings.map(({id, date, desc}) =>(
 					<Meeting key={id} date={date} desc={desc} />
 				))}
+
 			</div>
 		</section>        
 	);

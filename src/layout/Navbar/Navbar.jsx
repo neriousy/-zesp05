@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
-import * as styles from './Navbar.module.css';
+import styles from './Navbar.module.scss';
 
 function Navbar(){
 	return(

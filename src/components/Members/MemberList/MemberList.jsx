@@ -1,7 +1,7 @@
 import React from 'react';
-import { members } from './members.json';
 import Member from '../Member/Member';
-import * as styles from './MemberList.module.css';
+import styles from './MemberList.module.scss';
+import members from './members.json';
 
 
 function MemberList(){
@@ -10,8 +10,8 @@ function MemberList(){
 			<h2>
                     Członkowie Zespołu
 			</h2>
-                
-			{members.map(({id, name, role}) =>(
+                		
+			{members.map(({id, name, role}) => (
 				<Member key={id} name={name} role={role} />
 			))}
                 
