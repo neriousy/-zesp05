@@ -5,8 +5,8 @@ import styles from './Navbar.module.scss';
 
 function Navbar(){
 	return(
-		<header>
-			<nav>
+		<header className={styles.header}>
+			<nav className={styles.nav}>
 				<ul className={styles.navList}>
 					<li><a href="#home">
 						<FontAwesomeIcon icon={faHouse}/> 
