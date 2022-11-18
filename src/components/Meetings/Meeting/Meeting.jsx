@@ -15,7 +15,7 @@ function Meeting({date, desc}){
 					{desc}
 				</p>
 			</div>
-		</div>  
+		</div>
 	);
 }
 

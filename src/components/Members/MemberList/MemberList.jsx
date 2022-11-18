@@ -10,7 +10,6 @@ function MemberList(){
 			<h2>
                     Członkowie Zespołu
 			</h2>
-                		
 			{members.map(({id, name, role}) => (
 				<Member key={id} name={name} role={role} />
 			))}

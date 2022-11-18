@@ -15,7 +15,6 @@ function MeetingsList(){
 				{meetings.map(({id, date, desc}) =>(
 					<Meeting key={id} date={date} desc={desc} />
 				))}
-
 			</div>
 		</section>        
 	);
