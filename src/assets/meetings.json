@@ -1,0 +1,17 @@
+[
+  {
+      "id": 0,
+      "date": "8 Listopada 2022",
+      "desc": "Nawiązanie kontaktu i pierwsze spotkanie z opiekunem. "
+  },
+  {
+      "id": 1,
+      "date": "30 Listopada 2022",
+      "desc": "Wybór tematu projektu oraz wykorzystywanych technologi"
+  },
+  {
+    "id": 2,
+    "date": "12 Grudnia 2022",
+    "desc": "TBA"
+  }
+]
