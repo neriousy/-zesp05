@@ -1,117 +1,115 @@
-.date{
+.date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.icon {
+  position: absolute;
+  display: inline-block;
+  padding: 9px 9px;
+  top: calc(50% - 25px);
+  background-color: #282e3a;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 33px;
+  color: #fff;
+  z-index: 1;
+}
+
+.meetingComponent {
+  padding: 15px 30px;
+  position: relative;
+  width: 50%;
+  color: #fff;
+
+  &::after {
+    content: '';
     position: absolute;
-    display: inline-block;
+    width: 16px;
+    height: 16px;
     top: calc(50% - 8px);
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-    color: #000;
-    letter-spacing: 1px;
+    right: -8px;
+    background-color: #fff;
+    border: 2px solid rgb(0, 225, 255);
+    border-radius: 16px;
     z-index: 1;
-}
+  }
 
-.icon{
+  &::before {
+    content: '';
     position: absolute;
-    display: inline-block;
-    padding: 9px 9px;
-    top: calc(50% - 25px);
-    background-color: #282E3A;
-    border: 2px solid #fff;
-    border-radius: 40px;
-    text-align: center;
-    font-size: 33px;
-    color: #fff;
+    width: 50px;
+    height: 2px;
+    top: calc(50% - 1px);
+    right: 8px;
+    background-color: rgb(0, 225, 255);
     z-index: 1;
+  }
+
+  &:nth-child(odd) {
+    left: 0;
+
+    .date {
+      right: -150px;
+    }
+
+    .icon {
+      right: 56px;
+    }
+  }
+
+  &:nth-child(even) {
+    left: 50%;
+
+    &::after {
+      left: -8px;
+    }
+
+    &::before {
+      left: 8px;
+    }
+
+    .date {
+      left: -150px;
+    }
+
+    .icon {
+      left: 56px;
+    }
+
+    .content {
+      padding: 30px 30px 30px 90px;
+      border-radius: 500px 0 0 500px;
+    }
+  }
 }
 
+.content {
+  padding: 30px 90px 30px 30px;
+  background-color: #282e3a;
+  position: relative;
+  border-radius: 0 500px 500px 0;
 
-.meetingComponent{
-    padding: 15px 30px;
-    position: relative;
-    width:50%;
-    color:#fff;
+  h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+  }
 
-    &::after{
-        content: "";
-        position: absolute;
-        width:16px;
-        height: 16px;
-        top: calc(50% - 8px);
-        right: -8px;
-        background-color: #fff;
-        border: 2px solid rgb(0, 225, 255);
-        border-radius: 16px;
-        z-index: 1;
-    }
-
-    &::before{
-        content: "";
-        position: absolute;
-        width:50px;
-        height: 2px;
-        top: calc(50% - 1px);
-        right:8px;
-        background-color: rgb(0, 225, 255);
-        z-index:1;
-    }
-
-
-    &:nth-child(odd){
-        left: 0;
-
-        .date{
-            right:-150px;
-        }
-
-        .icon{
-            right:56px;
-        }
-    }
-
-    &:nth-child(even){
-        left:50%;
-
-        &::after{
-            left: -8px;
-        }
-
-        &::before{
-            left: 8px;
-        }
-
-        .date{
-            left:-150px;
-        }
-
-        .icon{
-            left: 56px;
-        }
-
-        .content{
-            padding: 30px 30px 30px 90px;
-            border-radius: 500px 0 0 500px;
-        }    
-    }
-}
-
-.content{
-    padding: 30px 90px 30px 30px;
-    background-color: #282E3A;
-    position:relative;
-    border-radius: 0 500px 500px 0;
-
-    h2{
-        margin: 0 0 10px 0;
-        font-size: 18px;
-        font-weight: normal;
-        color: #fff;
-        text-transform:uppercase;
-    }
-
-    p{
-        margin: 0;
-        font-size: 16px;
-        line-height: 22px;
-        color: #fff;
-    }
+  p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 22px;
+    color: #fff;
+  }
 }

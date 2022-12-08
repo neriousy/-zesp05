@@ -1,29 +1,38 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import styles from './Navbar.module.scss';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 
 function Navbar(){
-	return(
-		<header className={styles.header}>
-			<nav className={styles.nav}>
-				<ul className={styles.navList}>
-					<li><a href="#home">
-						<FontAwesomeIcon icon={faHouse}/> 
-						<span className={styles.flexColumn}>
-							<span>Drużyna</span>
-							<span>V</span>
-						</span> 
-					</a>
-					</li>
-					<li><a href="#projekt">O Projekcie</a></li>
-					<li><a href="#sklad">Członkowie Zespołu</a></li>
-					<li><a href="#harmonogram">Harmonogram</a></li>
-					<li><a href="#dokumentacja">Dokumentacja</a></li>
-				</ul>
-			</nav>
-		</header>
-	);
+  return(
+    <header className={styles.header}>
+      <nav>
+        <ul className={styles.navUl}>
+          <li className={styles.listItem}><a href="home"> <FontAwesomeIcon icon={faHouse}/></a> </li>
+
+          <li className={styles.listItem}>
+            <a href='#home' className={(navData) => (navData.isActive ? styles.active : '')}> STRONA GŁÓWNA </a>
+          </li>
+
+          <li className={styles.listItem}>
+            <a href='#objective' className={(navData) => (navData.isActive ? styles.active : '')}> ZAŁOŻENIA PROJEKTOWE </a>
+          </li>
+
+          <li className={styles.listItem}>
+            <a href='#members' className={(navData) => (navData.isActive ? styles.active : '')}> CZŁONKOWIE ZESPOŁU </a> 
+          </li>
+
+          <li className={styles.listItem}>
+            <a href='#meetings' className={(navData) => (navData.isActive ? styles.active : '')}> HARMONOGRAM </a> 
+          </li>
+        
+          <li className={styles.listItem}>
+            <a href='#documentation' className={(navData) => (navData.isActive ? styles.active : '')}> DOKUMENTACJA </a> 
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
 export default Navbar;

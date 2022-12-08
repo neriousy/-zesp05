@@ -6,17 +6,17 @@
     },
     {
         "id": 1,
-        "name": "Filip Hejmowski",
-        "role": "Czlonek zespolu"
+        "name": "Kazimierz Daszkiewicz",
+        "role": "Kierownik"
     },
     {
         "id": 2,
-        "name": "Bartosz Konkel",
-        "role": "Czlonek zespolu"
+        "name": "Filip Hejmowski",
+        "role": "Sekretarz"
     },
     {
         "id": 3,
-        "name": "Kazimierz Daszkiewicz",
+        "name": "Bartosz Konkel",
         "role": "Czlonek zespolu"
     },
     {

@@ -5,18 +5,14 @@ import members from './members.json';
 
 
 function MemberList(){
-	return(
-		<section className={styles.memberContainer}>
-			<h2>
-                    Członkowie Zespołu
-			</h2>
-			{members.map(({id, name, role}) => (
-				<Member key={id} name={name} role={role} />
-			))}
-                
-                
-		</section>
-	); 
+  return(
+    <section id="members" className={styles.memberContainer}>
+      <h3 className={styles.header}> Członkowie Zespołu </h3>
+      {members.map(({id, name, role}) => (
+        <Member key={id} name={name} role={role} />
+      ))}    
+    </section>
+  ); 
 }
 
 export default MemberList;

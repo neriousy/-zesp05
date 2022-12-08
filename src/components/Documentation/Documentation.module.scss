@@ -1,20 +1,13 @@
-@font-face {
-  font-family: 'Josefin Sans';
-  src: url('../../../fonts/JosefinSans-Regular.ttf');
-}
-
-.memberContainer {
-  position: relative;
-  width: 60%;
-  height: auto;
+.docContainer {
+  height: 200px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  margin: 25px auto 0 auto;
+  width: 100%;
+  flex-direction: column;
 }
 
-.header {
+.docHeader {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +15,7 @@
   width: 100%;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5em;
-  margin: 20px 0;
+  margin-bottom: 40px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -35,4 +28,10 @@
     position: relative;
     top: 5px;
   }
+}
+
+.downloadLink {
+  color: #00f;
+  font-weight: 700;
+  font-size: 1.2em;
 }

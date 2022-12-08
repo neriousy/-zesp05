@@ -6,17 +6,17 @@ import styles from './Meeting.module.scss';
 
 
 function Meeting({date, desc}){
-	return(
-		<div className={styles.meetingComponent}>
-			<div className={styles.date}>{ date }</div>
-			<FontAwesomeIcon className={styles.icon} icon={faCalendar}/>
-			<div className={styles.content}>   
-				<p>
-					{desc}
-				</p>
-			</div>
-		</div>
-	);
+  return(
+    <div className={styles.meetingComponent}>
+      <div className={styles.date}>{ date }</div>
+      <FontAwesomeIcon className={styles.icon} icon={faCalendar}/>
+      <div className={styles.content}>   
+        <p>
+          {desc}
+        </p>
+      </div>
+    </div>
+  );
 }
 
 export default Meeting;
