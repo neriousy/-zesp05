@@ -1,17 +1,43 @@
 [
         {
             "id": 0,
-            "date": "8 Listopada 2022",
-            "desc": "Nawiązanie kontaktu i pierwsze spotkanie z opiekunem"
+            "date": "LISTOPAD",
+            "desc": "Nawiązanie kontaktu i pierwsze spotkanie z opiekunem. Wybór tematu projektu oraz wykorzystywanych technologi"
         },
         {
             "id": 1,
-            "date": "22 Listopada 2022",
-            "desc": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet "
+            "date": "GRUDZIEŃ",
+            "desc": "Stworzenie szkieletu projektu"
         },
         {
             "id": 2,
-            "date": "23 Listopada 2022",
-            "desc": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet "
+            "date": "STYCZEŃ",
+            "desc": "Dyskusja na funkcjonalności aplikacji, nauka technologii"
+        },
+        {
+            "id": 3,
+            "date": "LUTY",
+            "desc": "Projektowanie Frontendu"
+        },
+        {
+            "id": 4,
+            "date": "MARZEC",
+            "desc": "Kontynuacja pracy nad projektem"
+        },
+        {
+            "id": 4,
+            "date": "KWIECIEŃ",
+            "desc": "Integracja z bazą danych"
+        },
+        {
+            "id": 5,
+            "date": "MAJ",
+            "desc": "Testowanie aplikacji i naprawianie ewentualnych błędów. Tworzenie dokumentacji"
+        },
+        {
+            "id": 6,
+            "date": "CZERWIEC",
+            "desc": "Prezentacja projektu"
         }
+
 ]

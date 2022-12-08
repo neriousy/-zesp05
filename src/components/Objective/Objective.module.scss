@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('../../fonts/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../../fonts/Lato-Light.ttf');
+}
+
+.objectiveContainer {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+
+  h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #212121;
+    text-transform: uppercase;
+  }
+}
+
+.flexRow {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 50%;
+
+  img {
+    width: 300px;
+  }
+}
+
+h3::after {
+  content: '';
+  background-color: #000;
+  width: 90%;
+  height: 2px;
+  position: relative;
+  top: 5px;
+}
+
+.desc {
+  width: 50%;
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 1.1em;
+
+  h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    margin: 20px 0;
+    font-weight: 700;
+  }
+}
+
+.objectiveList {
+  margin-top: 10px;
+
+  svg {
+    margin-right: 10px;
+  }
+
+  li {
+    list-style: none;
+    margin: 5px;
+  }
+}
