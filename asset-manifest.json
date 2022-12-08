@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/neriousy.github.io/static/css/main.b15df588.css",
-    "main.js": "/neriousy.github.io/static/js/main.3c0e40b7.js",
-    "static/media/v3.jpg": "/neriousy.github.io/static/media/v3.8490fcdf7a0d4ca86bd4.jpg",
-    "static/media/Lato-Light.ttf": "/neriousy.github.io/static/media/Lato-Light.c7400fcad9e48ca9043f.ttf",
-    "static/media/Lato-Regular.ttf": "/neriousy.github.io/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
-    "static/media/JosefinSans-Regular.ttf": "/neriousy.github.io/static/media/JosefinSans-Regular.0e82e3d2c82cf1e38a33.ttf",
-    "static/media/JosefinSans-Bold.ttf": "/neriousy.github.io/static/media/JosefinSans-Bold.a3a7c833253b917d3b74.ttf",
-    "static/media/arrow.png": "/neriousy.github.io/static/media/arrow.63e95394f8a2ba48035d.png",
-    "index.html": "/neriousy.github.io/index.html",
-    "main.b15df588.css.map": "/neriousy.github.io/static/css/main.b15df588.css.map",
-    "main.3c0e40b7.js.map": "/neriousy.github.io/static/js/main.3c0e40b7.js.map"
+    "main.css": "./static/css/main.5ea876d8.css",
+    "main.js": "./static/js/main.762da3a0.js",
+    "static/media/v3.jpg": "./static/media/v3.8490fcdf7a0d4ca86bd4.jpg",
+    "static/media/Lato-Light.ttf": "./static/media/Lato-Light.c7400fcad9e48ca9043f.ttf",
+    "static/media/Lato-Regular.ttf": "./static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/JosefinSans-Regular.ttf": "./static/media/JosefinSans-Regular.0e82e3d2c82cf1e38a33.ttf",
+    "static/media/JosefinSans-Bold.ttf": "./static/media/JosefinSans-Bold.a3a7c833253b917d3b74.ttf",
+    "static/media/arrow.png": "./static/media/arrow.63e95394f8a2ba48035d.png",
+    "index.html": "./index.html",
+    "main.5ea876d8.css.map": "./static/css/main.5ea876d8.css.map",
+    "main.762da3a0.js.map": "./static/js/main.762da3a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b15df588.css",
-    "static/js/main.3c0e40b7.js"
+    "static/css/main.5ea876d8.css",
+    "static/js/main.762da3a0.js"
   ]
 }
