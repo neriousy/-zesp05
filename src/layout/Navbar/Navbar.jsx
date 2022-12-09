@@ -8,7 +8,7 @@ function Navbar(){
     <header className={styles.header}>
       <nav>
         <ul className={styles.navUl}>
-          <li className={styles.listItem}><a href="home"> <FontAwesomeIcon icon={faHouse}/></a> </li>
+          <li className={styles.listItem}><a href="#home"> <FontAwesomeIcon icon={faHouse}/></a> </li>
 
           <li className={styles.listItem}>
             <a href='#home' className={(navData) => (navData.isActive ? styles.active : '')}> STRONA GŁÓWNA </a>

@@ -7,26 +7,26 @@
     {
         "id": 1,
         "name": "Kazimierz Daszkiewicz",
-        "role": "Kierownik"
+        "role": "Kierownik, Backend Developer"
     },
     {
         "id": 2,
         "name": "Filip Hejmowski",
-        "role": "Sekretarz"
+        "role": "Sekretarz, Fullstack Developer"
     },
     {
         "id": 3,
         "name": "Bartosz Konkel",
-        "role": "Czlonek zespolu"
+        "role": "Frontend Developer"
     },
     {
         "id": 4,
         "name": "Kacper Filipiuk",
-        "role": "Czlonek zespolu"
+        "role": "Backend Developer"
     },
     {
         "id": 5,
         "name": "Aneta Pietrzak",
-        "role": "Czlonek zespolu"
+        "role": "Frontend Developer"
     }
 ]

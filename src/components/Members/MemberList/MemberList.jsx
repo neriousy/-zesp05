@@ -1,7 +1,7 @@
 import React from 'react';
 import Member from '../Member/Member';
 import styles from './MemberList.module.scss';
-import members from './members.json';
+import members from '../../../assets/members.json';
 
 
 function MemberList(){
